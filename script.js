@@ -209,4 +209,7 @@ document.querySelectorAll(".faq-question").forEach((button) => {
     }
   });
 });
+// Dynamic copyright year
+const currentYear = new Date().getFullYear();
+document.getElementById("copyright-year").textContent = currentYear;
 
